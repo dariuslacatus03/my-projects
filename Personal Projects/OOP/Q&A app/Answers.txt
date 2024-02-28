@@ -1,5 +1,0 @@
-1|1|Lacatus Darius|You should try fishing with fish eggs|1
-2|1|Obis Luca|In the winter I catch them only on soft baits|0
-3|2|Lacatus Darius|You should improve your strength first by going to the gym|0
-4|2|Contiu Mario|Eat healthy and train well|0
-5|3|Lacatus Darius|Try animekage|1
