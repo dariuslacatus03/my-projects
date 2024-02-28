@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.ProgramExecutorController">
+    <VBox alignment="CENTER" prefHeight="1000.0" prefWidth="1000.0">
+        <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="43.0" VBox.vgrow="ALWAYS">
+            <Label alignment="TOP_LEFT" lineSpacing="1.0" style="-fx-label-padding: 5;" text="Program States:">
+                <font>
+                    <Font name="Berlin Sans FB" size="14.0" />
+                </font>
+            </Label>
+            <TextField fx:id="numberOfProgramStatesTextField" editable="false" prefHeight="26.0" prefWidth="79.0" promptText="no. of states">
+                <font>
+                    <Font name="Berlin Sans FB" size="12.0" />
+                </font>
+            </TextField>
+        </HBox>
+        <HBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+            <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="425.0" prefWidth="280.0">
+                <VBox prefHeight="195.0" prefWidth="285.0">
+                    <Label text="ProgramState IDs">
+                        <font>
+                            <Font name="Berlin Sans FB" size="12.0" />
+                        </font>
+                    </Label>
+                    <ListView fx:id="programStateIdentifiersListView" onMouseClicked="#changeProgramState" />
+                </VBox>
+                <VBox prefHeight="195.0" prefWidth="285.0">
+                    <Label text="Symbol Table">
+                        <font>
+                            <Font name="Berlin Sans FB" size="12.0" />
+                        </font>
+                    </Label>
+                    <TableView fx:id="symbolTableView">
+                        <columns>
+                            <TableColumn fx:id="variableNameColumn" editable="false" prefWidth="99.20001524686813" text="Variable Name" />
+                            <TableColumn fx:id="variableValueColumn" editable="false" prefWidth="100.0" text="Value" />
+                        </columns>
+                        <VBox.margin>
+                            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                        </VBox.margin>
+                    </TableView>
+                </VBox>
+            </VBox>
+            <VBox prefHeight="425.0" prefWidth="280.0">
+                <VBox prefHeight="195.0" prefWidth="285.0">
+                    <Label text="Execution Stack">
+                        <font>
+                            <Font name="Berlin Sans FB" size="12.0" />
+                        </font>
+                    </Label>
+                    <ListView fx:id="executionStackListView">
+                        <VBox.margin>
+                            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                        </VBox.margin>
+                    </ListView>
+                </VBox>
+                <VBox prefHeight="195.0" prefWidth="285.0">
+                    <Label text="Heap">
+                        <font>
+                            <Font name="Berlin Sans FB" size="12.0" />
+                        </font>
+                    </Label>
+                    <TableView fx:id="heapTableView">
+                        <columns>
+                            <TableColumn fx:id="addressColumn" editable="false" prefWidth="101.20001375675201" text="Address" />
+                            <TableColumn fx:id="valueColumn" editable="false" prefWidth="97.99999237060547" text="Value" />
+                        </columns>
+                        <VBox.margin>
+                            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                        </VBox.margin>
+                    </TableView>
+                </VBox>
+            </VBox>
+            <VBox prefHeight="425.0" prefWidth="280.0">
+                <VBox prefHeight="195.0" prefWidth="285.0">
+                    <Label text="Files">
+                        <font>
+                            <Font name="Berlin Sans FB" size="12.0" />
+                        </font>
+                    </Label>
+                    <ListView fx:id="fileTableListView">
+                        <VBox.margin>
+                            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                        </VBox.margin>
+                    </ListView>
+                </VBox>
+                <VBox prefHeight="195.0" prefWidth="285.0">
+                    <Label text="Output">
+                        <font>
+                            <Font name="Berlin Sans FB" size="12.0" />
+                        </font>
+                    </Label>
+                    <ListView fx:id="outputListView">
+                        <VBox.margin>
+                            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                        </VBox.margin>
+                    </ListView>
+                </VBox>
+            </VBox>
+        </HBox>
+      <HBox alignment="CENTER" prefHeight="212.0" prefWidth="850.0">
+          <children>
+              <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="200.0">
+                  <children>
+                      <Label text="Count Down Latch Table">
+
+                      </Label>
+                      <TableView fx:id="latchTableView" prefHeight="200.0" prefWidth="200.0">
+                          <columns>
+                              <TableColumn fx:id="latchLocationColumn" prefWidth="100.0" text="Location" />
+                              <TableColumn fx:id="latchValueColumn" prefWidth="100.0" text="Value" />
+                          </columns>
+                      </TableView>
+                  </children>
+              </VBox>
+          </children>
+      </HBox>
+        <HBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="70.0" prefWidth="850.0" VBox.vgrow="ALWAYS">
+            <!--                <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="200.0">-->
+            <!--                    <children>-->
+            <!--                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="200.0">-->
+            <!--                            <children>-->
+            <!--                                <Label text="Lock Table">-->
+
+            <!--                                </Label>-->
+            <!--                                <TableView fx:id="lockTableView" prefHeight="200.0" prefWidth="200.0">-->
+            <!--                                    <columns>-->
+            <!--                                        <TableColumn fx:id="locationColumn" prefWidth="100.0" text="Location" />-->
+            <!--                                        <TableColumn fx:id="lockValueColumn" prefWidth="100.0" text="Value" />-->
+            <!--                                    </columns>-->
+            <!--                                </TableView>-->
+            <!--                            </children>-->
+            <!--                        </VBox>-->
+            <!--                    </children>-->
+            <!--                </HBox>-->
+            <!--                <HBox alignment="TOP_CENTER" prefHeight="300.0" prefWidth="300.0">-->
+            <!--                    <children>-->
+            <!--                        <VBox alignment="TOP_CENTER" prefHeight="300.0" prefWidth="300.0">-->
+            <!--                            <children>-->
+            <!--                                <Label text="Semaphore Table">-->
+
+            <!--                                </Label>-->
+            <!--                                <TableView fx:id="semaphoreTableView" prefHeight="300.0" prefWidth="300.0">-->
+            <!--                                    <columns>-->
+            <!--                                        <TableColumn fx:id="semaphoreIndexColumn" prefWidth="100.0" text="Index" />-->
+            <!--                                        <TableColumn fx:id="semaphoreValueColumn" prefWidth="100.0" text="Value" />-->
+            <!--                                        <TableColumn fx:id="semaphoreListColumn" prefWidth="100.0" text="List" />-->
+            <!--                                    </columns>-->
+            <!--                                </TableView>-->
+            <!--                            </children>-->
+            <!--                        </VBox>-->
+            <!--                    </children>-->
+            <!--                </HBox>-->
+            <Button fx:id="runOneStepButton" alignment="TOP_CENTER" mnemonicParsing="false" onMouseClicked="#runOneStep" prefHeight="38.0" prefWidth="131.0" style="-fx-padding: 10;" text="Run one step">
+                <font>
+                    <Font name="Berlin Sans FB" size="12.0" />
+                </font>
+            </Button>
+        </HBox>
+    </VBox>
+</StackPane>

@@ -1,0 +1,38 @@
+package model.adts;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class MyList<Type> implements MyIList<Type> {
+    private List<Type> output;
+
+    public MyList() {
+        output = new LinkedList<>();
+    }
+
+    @Override
+    public void add(Type e) {
+        output.add(e);
+    }
+
+    @Override
+    public void clear() {
+        output.clear();
+    }
+
+    @Override
+    public String toString() {
+        return output.toString();
+    }
+
+    @Override
+    public List<Type> getList(){ return output; }
+
+    public List<Type> getOutput() {
+        return output;
+    }
+
+    public void setOutput(List<Type> output) {
+        this.output = output;
+    }
+}
