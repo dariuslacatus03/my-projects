@@ -1,0 +1,24 @@
+Test1's configuration:
+- table T1: NoOfRows = 10000, Position = 1
+- table T2: NoOfRows = 2000, Position = 2
+- table T3: NoOfRows = 500, Position = 3
+- views V1, V2
+
+
+run Test1 => test run with TestRunId = 7
+- delete all rows from T1
+- delete all rows from T2
+- delete all rows from T3
+- insert 500 rows into T3
+- insert 2000 rows into T2
+- insert 10000 rows into T1
+- SELECT * FROM V1
+- SELECT * FROM V2
+
+For test run with TestRunId = 7: 
+- store its "StartAt", "EndAt" in TestRuns
+- for the INSERT on T3: store its "StartAt", "EndAt" in TestRunTables
+- for the INSERT on T2: store its "StartAt", "EndAt" in TestRunTables
+- for the INSERT on T1: store its "StartAt", "EndAt" in TestRunTables
+- for the SELECT on V1: store its "StartAt", "EndAt" in TestRunViews
+- for the SELECT on V2: store its "StartAt", "EndAt" in TestRunViews
