@@ -8,3 +8,13 @@ C:\Users\dariu\Desktop\a\Facultate\An_2\Semestrul_2\DBMS\Lab1\lab_01\lab_01\obj\
 C:\Users\dariu\Desktop\a\Facultate\An_2\Semestrul_2\DBMS\Lab1\lab_01\lab_01\obj\Debug\lab_01.csproj.CoreCompileInputs.cache
 C:\Users\dariu\Desktop\a\Facultate\An_2\Semestrul_2\DBMS\Lab1\lab_01\lab_01\obj\Debug\lab_01.exe
 C:\Users\dariu\Desktop\a\Facultate\An_2\Semestrul_2\DBMS\Lab1\lab_01\lab_01\obj\Debug\lab_01.pdb
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\bin\Debug\lab_01.exe.config
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\bin\Debug\lab_01.exe
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\bin\Debug\lab_01.pdb
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\obj\Debug\lab_01.csproj.AssemblyReference.cache
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\obj\Debug\lab_01.Form1.resources
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\obj\Debug\lab_01.Properties.Resources.resources
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\obj\Debug\lab_01.csproj.GenerateResource.cache
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\obj\Debug\lab_01.csproj.CoreCompileInputs.cache
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\obj\Debug\lab_01.exe
+C:\Users\dariu\Desktop\Projects\my-projects\University Projects\Databases Management Systems\Lab1\lab_01\lab_01\obj\Debug\lab_01.pdb

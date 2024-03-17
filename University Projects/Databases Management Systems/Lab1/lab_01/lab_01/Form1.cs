@@ -13,37 +13,53 @@ namespace lab_01
 {
     public partial class Form1 : Form
     {
+
+        const string connectionString = "Data Source=DESKTOP-FCVPJ3V\\SQLEXPRESS;Initial Catalog=FishingApp;User=sa;Password=admin";
+        SqlConnection connection = new SqlConnection(connectionString);
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'fishingAppDataSet.Species' table. You can move, or remove it, as needed.
-            this.speciesTableAdapter.Fill(this.fishingAppDataSet.Species);
-            // TODO: This line of code loads data into the 'fishingAppDataSet.CurrentVersion' table. You can move, or remove it, as needed.
-            this.currentVersionTableAdapter.Fill(this.fishingAppDataSet.CurrentVersion);
-            // TODO: This line of code loads data into the 'fishingAppDataSet.Championship' table. You can move, or remove it, as needed.
-            this.championshipTableAdapter.Fill(this.fishingAppDataSet.Championship);
-
+            this.fillSpecies();
+            this.fillFish();
         }
 
-        private void fillSpeciesToolStripButton_Click(object sender, EventArgs e)
+
+        private void fillSpecies()
         {
             try
             {
-                this.speciesTableAdapter.FillSpecies(this.fishingAppDataSet.Species);
+                string sqlCommand = "select * from Species";
+                SqlCommand getSpecies = new SqlCommand(sqlCommand, connection);
+
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(getSpecies);
+                DataSet dataSet = new DataSet();
+
+                sqlDataAdapter.Fill(dataSet, "Species");
+                speciesGrid.DataSource = dataSet.Tables["Species"];
+            }
+            catch (System.Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void fillFish()
+        {
+            try
+            {
+                string sqlCommand = "select * from Fish";
+                SqlCommand getFish = new SqlCommand(sqlCommand, connection);
+
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(getFish);
+                DataSet dataSet = new DataSet();
+
+                sqlDataAdapter.Fill(dataSet, "Fish");
+                fishGrid.DataSource = dataSet.Tables["Fish"];
             }
             catch (System.Exception ex)
             {
@@ -52,16 +68,20 @@ namespace lab_01
 
         }
 
-        private void fillSpeciesToolStripButton_Click_1(object sender, EventArgs e)
+        private void speciesGrid_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            try
-            {
-                this.speciesTableAdapter.FillSpecies(this.fishingAppDataSet.Species);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
+            var speciesID = speciesGrid.Rows[e.RowIndex].Cells[0].Value;
+
+            string sqlCommand = "SELECT * FROM FISH WHERE SpeciesName=@SpeciesID";
+
+            SqlCommand getFishBySpecies = new SqlCommand(sqlCommand, connection);
+            getFishBySpecies.Parameters.AddWithValue("@SpeciesID", speciesID);
+
+            DataSet dataSet = new DataSet();
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(getFishBySpecies);
+
+            dataAdapter.Fill(dataSet, "Fish");
+            fishBySpeciesGrid.DataSource = dataSet.Tables["Fish"];
 
         }
     }
