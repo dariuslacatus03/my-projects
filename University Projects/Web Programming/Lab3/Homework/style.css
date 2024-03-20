@@ -1,0 +1,237 @@
+body {
+    display: inline;
+}
+
+
+
+.l3-header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+.l3-div-head {
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(230, 232, 234);
+    background-color: white;
+  }
+
+
+
+.l3-head-icons {
+    display: flex;
+    width:33%;
+    float: left;
+}
+.l3-head-logo {
+    display: flex;
+    width:33%;
+    justify-content: center;
+    align-items: center;
+}
+.l3-head-buttons {
+    display: flex;
+    width:33%;
+    justify-content: end;
+    gap: 20px;
+}
+
+
+.icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+  }
+  .menu-icon {
+    background-image: url('./icons/menu-icon.png');
+  }
+  .search-icon {
+    background-image: url('./icons/search-icon.png');
+  }
+
+
+
+  .bbc-logo {
+    display: inline-block;
+    width: 100px;
+    height: 27px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./icons/bbc-logo.png');
+  }
+
+
+
+  .buttons {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 2px 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    outline: transparent solid 2px;
+  }
+  .register-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    outline-color: rgb(0, 0, 0);
+
+  }
+  .register-button:hover{
+    background-color: rgb(85, 85, 85);
+    outline-color: rgb(85, 85, 85);
+    border-color: rgb(85, 85, 85);
+  }
+  .signin-button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-color: transparent;
+  }
+  .signin-button:hover {
+    background-color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
+    border-color: rgb(85, 85, 85);
+    outline-color: rgb(85, 85, 85);
+  }
+
+
+
+  
+.l3-nav-head {
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    top: 65.8px;
+    left: 0px;
+    right: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.l3-head-section {
+    border-bottom: 1px solid rgb(230, 232, 234);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    line-height: 0;
+    max-width: 100vw;
+}
+
+.head-nav {
+    display: inline-block;
+    overflow-x: hidden;
+    white-space: nowrap;
+    margin-bottom: -1px;
+}
+
+.nav-u-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.nav-u-item {
+    position: relative;
+    padding:10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav-u-item:hover{
+  background-color: rgb(214, 214, 214);
+  cursor: pointer;
+}
+
+
+
+.l3-section{
+  display: grid;
+}
+.l3-section:hover{
+  cursor: pointer;
+  .info-header {
+    text-decoration: underline;
+  }
+}
+
+.title {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.separator {
+  border-top-width: 1px;
+  border-color: black;
+}
+
+.content {
+  display: flex;
+  margin-left: 2%;
+}
+.image-div {
+    width: 60%;
+}
+.image {
+  width: 100%; 
+  height: 100%;
+}
+
+
+.info {
+  padding: 2%;
+  align-self: center;
+  gap: 4rem;
+  display: grid;
+  width: 40%;
+}
+.info-header{
+  color: rgb(32, 34, 36);
+  font-family: serif;
+  font-weight: bold;
+  font-size: 29px;
+}
+.info-text{
+  color: rgb(32, 34, 36);
+  font-family: serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: 0px;
+}
+.info-more{
+
+}
+
+.see-more{
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  outline-color: rgba(0, 0, 0, 0);
+  padding: 6px;
+}
+.see-more:hover{
+  background-color: rgb(85, 85, 85);
+  color: rgb(255, 255, 255);
+  border-color: rgb(85, 85, 85);
+  outline-color: rgb(85, 85, 85);
+}
