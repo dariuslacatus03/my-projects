@@ -1,0 +1,25 @@
+<!-- Write an HTML page that contains a table having four lines and four columns. 
+The table's cells contain distinct random numbers from 1 to 15 (one of the cells 
+being empty). Using JavaScript create a puzzle game that the user must solve. 
+You will create a second version of the game, where numbers are replaced by small 
+images, initially part of a bigger image. For slicing the original image in smaller 
+pieces you may use picture editing software such as Photoshop or Gimp. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js"></script>
+    <title>Lab4v2</title>
+</head>
+<body onload="init()">
+    <div id="container">
+        <div id="game" class="game"></div>
+        <div>
+            <img src="./img/goku.jpg" width="600px" height="600px">
+        </div>
+        <p id="status"></p>
+    </div>
+</body>
+</html>
