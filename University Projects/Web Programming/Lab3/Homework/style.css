@@ -162,6 +162,8 @@ body {
 
 .l3-section{
   display: grid;
+  margin-left:8%;
+  margin-right:8%;
 }
 .l3-section:hover{
   cursor: pointer;
