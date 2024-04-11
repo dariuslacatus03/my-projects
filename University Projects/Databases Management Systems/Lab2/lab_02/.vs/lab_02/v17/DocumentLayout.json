@@ -48,9 +48,10 @@
               "RelativeDocumentMoniker": "lab_02\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\dariu\\Desktop\\Projects\\my-projects\\University Projects\\Databases Management Systems\\Lab2\\lab_02\\lab_02\\Form1.Designer.cs",
               "RelativeToolTip": "lab_02\\Form1.Designer.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwDUAAAAyAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAIAwwEkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T18:39:56.052Z"
+              "WhenOpened": "2024-04-11T18:39:56.052Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,9 +61,10 @@
               "RelativeDocumentMoniker": "lab_02\\App.config",
               "ToolTip": "C:\\Users\\dariu\\Desktop\\Projects\\my-projects\\University Projects\\Databases Management Systems\\Lab2\\lab_02\\lab_02\\App.config",
               "RelativeToolTip": "lab_02\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-11T18:39:33.6Z"
+              "WhenOpened": "2024-04-11T18:39:33.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,7 +74,7 @@
               "RelativeDocumentMoniker": "lab_02\\Form1.cs",
               "ToolTip": "C:\\Users\\dariu\\Desktop\\Projects\\my-projects\\University Projects\\Databases Management Systems\\Lab2\\lab_02\\lab_02\\Form1.cs",
               "RelativeToolTip": "lab_02\\Form1.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAgwCMAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAtwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T18:38:02.063Z",
               "EditorCaption": ""
@@ -98,7 +100,8 @@
               "ToolTip": "C:\\Users\\dariu\\Desktop\\Projects\\my-projects\\University Projects\\Databases Management Systems\\Lab2\\lab_02\\lab_02\\Properties\\Settings.settings",
               "RelativeToolTip": "lab_02\\Properties\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-04-11T18:37:37.208Z"
+              "WhenOpened": "2024-04-11T18:37:37.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -109,7 +112,8 @@
               "ToolTip": "C:\\Users\\dariu\\Desktop\\Projects\\my-projects\\University Projects\\Databases Management Systems\\Lab2\\lab_02\\lab_02\\Form1.cs [Design]",
               "RelativeToolTip": "lab_02\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T18:36:29.851Z"
+              "WhenOpened": "2024-04-11T18:36:29.851Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
