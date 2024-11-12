@@ -1,0 +1,36 @@
+.random-color-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #ffffff;
+    transition: background-color 0.5s ease;
+}
+
+.random-color-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.random-color-container p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.random-color-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.random-color-container button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}

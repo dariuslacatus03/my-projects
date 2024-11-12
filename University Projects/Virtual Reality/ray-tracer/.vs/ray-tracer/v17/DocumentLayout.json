@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\rawctmask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:rawctmask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\geometry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:geometry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\raytracer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:raytracer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\colormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:colormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\ellipsoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:ellipsoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\intersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:intersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|c:\\users\\dariu\\desktop\\a\\facultate\\an_3\\sem_1\\virtual_reality\\ray-tracer\\vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E8CAEC-AC39-4CBF-93D3-58ABE53615FC}|ray-tracer.csproj|solutionrelative:vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 90,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColorMap.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\ColorMap.cs",
+              "RelativeDocumentMoniker": "ColorMap.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\ColorMap.cs",
+              "RelativeToolTip": "ColorMap.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:23:46.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Vector.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Vector.cs",
+              "RelativeDocumentMoniker": "Vector.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Vector.cs",
+              "RelativeToolTip": "Vector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T10:47:46.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RawCTMask.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\RawCTMask.cs",
+              "RelativeDocumentMoniker": "RawCTMask.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\RawCTMask.cs",
+              "RelativeToolTip": "RawCTMask.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAswIoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T10:27:23.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RayTracer.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\RayTracer.cs",
+              "RelativeDocumentMoniker": "RayTracer.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\RayTracer.cs",
+              "RelativeToolTip": "RayTracer.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAUwHYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T10:28:01.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Geometry.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Geometry.cs",
+              "RelativeDocumentMoniker": "Geometry.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Geometry.cs",
+              "RelativeToolTip": "Geometry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T10:27:17.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Material.cs",
+              "RelativeDocumentMoniker": "Material.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Material.cs",
+              "RelativeToolTip": "Material.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA3wAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:49:12.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Color.cs",
+              "RelativeDocumentMoniker": "Color.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Color.cs",
+              "RelativeToolTip": "Color.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAkwFUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:59:37.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Intersection.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Intersection.cs",
+              "RelativeDocumentMoniker": "Intersection.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Intersection.cs",
+              "RelativeToolTip": "Intersection.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T13:27:00.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ellipsoid.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Ellipsoid.cs",
+              "RelativeDocumentMoniker": "Ellipsoid.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Ellipsoid.cs",
+              "RelativeToolTip": "Ellipsoid.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAcwEoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T10:29:09.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\a\\Facultate\\An_3\\Sem_1\\Virtual_Reality\\ray-tracer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwFkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T10:24:06.559Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 310,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

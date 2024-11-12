@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+      <form (ngSubmit)="onSubmit()" [formGroup]="destinationForm">
+        <div class="form-group">
+          <label for="location">Location</label>
+          <input type="text" class="form-control" id="location" formControlName="location" placeholder="Enter Location" required>
+        </div>
+        <div class="form-group">
+          <label for="country">Country</label>
+          <input type="text" class="form-control" id="country" formControlName="country" placeholder="Enter Country" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Description</label>
+          <input type="text" class="form-control" id="description" formControlName="description" placeholder="Enter Description" required>
+        </div>
+        <div class="form-group">
+          <label for="targets">Tourist Targets</label>
+          <input type="text" class="form-control" id="targets" formControlName="targets" placeholder="Enter Targets" required>
+        </div>
+        <div class="form-group">
+          <label for="costs">Costs</label>
+          <input type="number" class="form-control" id="costs" formControlName="costs" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a routerLink="/" class="btn btn-danger">Back</a>
+      </form>
+    </div>
+  </div>
+  

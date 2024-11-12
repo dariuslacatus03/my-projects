@@ -1,0 +1,11 @@
+<div class="container text-center">
+    <h1>Vacation Manager</h1>
+    <div *ngIf="message" class="alert alert-warning" role="alert">{{ message }}</div>
+    <div class="row">
+      <a routerLink="/add-destination" class="btn btn-primary mb-2">Add Destination</a>
+      <a routerLink="/delete-destinations" class="btn btn-secondary mb-2">Delete Destinations</a>
+      <a routerLink="/modify-destinations" class="btn btn-success mb-2">Modify Destinations</a>
+      <a routerLink="/browse-destinations" class="btn btn-danger mb-2">Browse Destinations</a>
+    </div>
+  </div>
+  

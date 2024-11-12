@@ -1,4 +1,4 @@
-USE LeagueManagement;
+USE Lab3_DBMS
 GO
 
 DROP TABLE IF EXISTS TeamPlayer
@@ -290,3 +290,7 @@ GO
 -- This query will display the logs to verify the outcomes of the test cases.
 SELECT * FROM Logs;
 GO
+
+SELECT * from Player
+SELECT * from Team
+SELECT * from TeamPlayer

@@ -46,7 +46,6 @@ namespace lab_02
             String parentToChildRelationName = ConfigurationManager.AppSettings["parentToChildRelationName"];
             String childToParentRelationName = ConfigurationManager.AppSettings["childToParentRelationName"];
 
-
             string selectQueryParentTable = $"SELECT * FROM {parentTableName}";
             string selectQueryChildTable = $"SELECT * FROM {childTableName}";
 
